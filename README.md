@@ -6,5 +6,9 @@ If you have any questions, feel free to ask at any time.
 
 ![image](https://github.com/jw9603/Logical_Fallacy/assets/70795645/50603e02-efe8-411c-9167-8f179ec21392)
 
+![Model 2](./fig/fig_model2.png)
+
+![Model Below](./fig/fig_model_below.png)
+
 
 
