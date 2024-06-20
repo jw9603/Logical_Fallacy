@@ -13,7 +13,9 @@ If you have any questions, feel free to ask at any time.
 
 ## Preliminaries
 1. You need Chatgpt API.
-2. You need LLaMA2 and LLaMA3 API. https://huggingface.co/meta-llama
+   https://openai.com/chatgpt/ 
+2. You need LLaMA2 and LLaMA3 API.
+   https://huggingface.co/meta-llama
 
 
 
