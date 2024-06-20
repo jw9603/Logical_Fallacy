@@ -1,4 +1,4 @@
-![image](https://github.com/jw9603/Logical_Fallacy/assets/70795645/d1d22b85-6e9a-4102-abab-0853e8ef406f)# Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-aware Prompt Formulation
+# Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-aware Prompt Formulation
 
 This repository contains Pytorch-based code implementing of paper "This repository contains Pytorch-based code implementing of paper "Improving Multi-hop Logical Reasoning in Knowledge Graphs with Context-Aware Query Representation Learning".
 
