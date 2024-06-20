@@ -1,0 +1,680 @@
+{
+    "test": [
+        [
+            "Nurse faints after getting a COVID-19 vaccine",
+            "false causality",
+            "Correlation does not imply causation, people can faint for other reasons unrelated to the vaccine. In fact, there is no scientific evidence linking the COVID-19 vaccine to fainting episodes. It is important to consider other factors such as anxiety, fatigue, or underlying medical conditions before attributing it to the vaccine.",
+            "This text demonstrates the logical fallacy of false causality, as it suggests that the nurse fainted because of the COVID-19 vaccine without providing any evidence or proof of a direct causal relationship between the two events. It is possible that the nurse fainted for other reasons unrelated to the vaccine, but the text presents a false assumption that the vaccine caused the fainting. This type of fallacy can lead to misinformation and faulty reasoning. It is important to critically evaluate evidence and avoid making assumptions or drawing conclusions without sufficient evidence.",
+            "The logical fallacy in this text is false causality, as it implies that the nurse fainting was caused by the COVID-19 vaccine without any evidence to support this conclusion.\n\nGoal: The goal of the text is to report on a singular incident of a nurse fainting after receiving a COVID-19 vaccine, potentially to incite fear or doubt about the safety of the vaccine.",
+            "How can we ensure accurate attribution of fainting episodes to the COVID-19 vaccine, considering other possible factors contributing to the event?",
+            "How does the text demonstrate the fallacy of false causality and the importance of critically evaluating evidence?",
+            "Can you identify any logical fallacies in this text and how does this text achieve its goal?",
+            -1.7609248,
+            -2.335495,
+            -0.042521543702,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -0.00024044505,
+            -2.5777605649999998e-05,
+            -4.0961266e-05,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "Brazilian President Jair Bolsonaro said, “In the Pfizer contract it's very clear: 'we're not responsible for any side effects.' If you turn into a crocodile, it's your problem.”",
+            "no fallacy",
+            "While it may be stated in the contract that Pfizer is not responsible for any side effects, it is the responsibility of the Brazilian government to ensure the safety and well-being of its citizens. To dismiss potential severe side effects, such as turning into a crocodile, as the individual's problem shows a lack of regard for the health and safety of the people. The government should not engage in contracts where the well-being of its citizens is not prioritized.",
+            "This text is a quote from Brazilian President Jair Bolsonaro. In the quote, Bolsonaro is discussing the contract between Brazil and pharmaceutical company Pfizer. He claims that the contract states that Pfizer is not responsible for any potential side effects from their vaccine. The use of humor in the quote, specifically mentioning turning into a crocodile, highlights the President's skepticism towards the safety and effectiveness of the vaccine and his belief that individuals should take responsibility for any negative outcomes. This text reflects a larger global conversation and debate surrounding the distribution and administration of COVID-19 vaccines, particularly in Brazil where the government has faced criticism for its handling of the pandemic.",
+            "The goal of this text is to convey Bolsonaro's controversial statement regarding the Pfizer contract and their refusal to take responsibility for any potential side effects of their vaccine.",
+            "How does Bolsonaro's dismissal of potential severe side effects in the Pfizer contract reflect on his dedication to protecting the well-being of the Brazilian people?",
+            "How does Bolsonaro's use of humor in this quote reveal his attitude towards the responsibility of Pfizer and individuals when it comes to the potential side effects of the vaccine?",
+            "How does Bolsonaro's statement highlight the controversy surrounding the Pfizer vaccine and its potential side effects?",
+            -0.000354847582,
+            -0.00031432567400000003,
+            -0.001931813625,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -0.0031381508,
+            -0.00867213,
+            -0.00015581779,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "The new Covid-19 vaccine will be the first of its kind ever. It will be an mRNA vaccine which will literally alter your DNA. It will wrap itself into your system. You will become a genetically modified human being.",
+            "no fallacy",
+            "While it is true that the new Covid-19 vaccine is an mRNA vaccine that will enter the body and potentially alter DNA, this claim that it will \"literally\" do so and make individuals \"genetically modified human beings\" is unfounded and unsupported by scientific evidence. Vaccines have been used for centuries to prevent diseases and improve public health, and this new technology is simply a more efficient and effective method of providing immunity against the virus. It is important to trust in the rigorous testing and regulatory processes in place to ensure the safety and efficacy of vaccines.",
+            "This text discusses the development of a new Covid-19 vaccine and its potential impact on the human body. The text mentions that the vaccine will be the first of its kind, referring to it being an mRNA vaccine. This type of vaccine uses messenger RNA to trigger the production of antibodies in the body. The text suggests that this vaccine has the ability to alter a person's DNA, which is responsible for their genetic makeup. It also states that the vaccine will wrap itself into the system, possibly indicating the potential for long-term effects. Finally, the text states that getting this vaccine will result in a person becoming a genetically modified human being, implying a significant change to their biological makeup. Overall, the text presents the idea that this new vaccine is groundbreaking and may have significant consequences for those who receive it.",
+            "The goal of this text is likely to inform and potentially educate the reader about the new Covid-19 vaccine and its unique characteristics and effects on the human body. It may also aim to create awareness and generate discussion about the use of mRNA technology and the potential implications of genetic modification in humans.",
+            "What evidence supports the claim that the new Covid-19 vaccine will literally alter DNA and turn individuals into genetically modified human beings?",
+            "In what ways does this text suggest the potential consequences of receiving the new Covid-19 vaccine and its impact on a person's genetic makeup?",
+            "How does the information in the text contribute to the overall goal of informing and potentially educating the reader about the new Covid-19 vaccine and its effects on the human body?",
+            -0.00018799911899999999,
+            -0.00017369834199999998,
+            -0.001136724763,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -4.44015e-06,
+            -6.46661225e-06,
+            -4.440149630000001e-06,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "Margaret Keenan, the first recipient of the Pfizer/BioNTech COVID-19 vaccine in December 2020, was featured in a news report two months earlier, providing evidence of wrongdoing or deception.",
+            "no fallacy",
+            "It is possible that the news report featuring Margaret Keenan two months earlier was simply reporting on her participation in the vaccine trials, rather than evidence of wrongdoing or deception.",
+            "This text likely refers to a news report that revealed Mrs. Keenan was featured in a news report two months before receiving the COVID-19 vaccine from Pfizer/BioNTech. The use of the phrase \"evidence of wrongdoing or deception\" suggests that the news report may have uncovered some sort of deceit or dishonesty related to Mrs. Keenan's involvement in the vaccine trial. This could potentially raise concerns or questions about the safety and effectiveness of the vaccine. Further investigation may be needed to fully understand the significance of this information.",
+            "The goal of this text is to inform readers of a potential issue or controversy surrounding the first recipient of the Pfizer/BioNTech COVID-19 vaccine, Margaret Keenan. The text suggests that Keenan's featured appearance in a news report two months prior may indicate wrongdoing or deception.",
+            "Is there any evidence to suggest that the news report featuring Margaret Keenan two months before she received the COVID-19 vaccine was not a malicious act but rather a report on her participation in the trials?",
+            "How might the revelation that Margaret Keenan was featured in a news report two months before receiving the COVID-19 vaccine from Pfizer/BioNTech impact public trust in the safety and effectiveness of the vaccine?",
+            "What evidence does the text present to support the possibility of wrongdoing or deception surrounding Margaret Keenan's role as the first recipient of the Pfizer/BioNTech COVID-19 vaccine?",
+            -0.20976600087140002,
+            -0.010625067741,
+            -0.012465271815300001,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ],
+            -0.68507904,
+            -0.020730836,
+            -0.00967931761265,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "“The Government has released their initial plans to force a vaccine on everyone”; “Three potential vaccines are currently in Stage 3 trials in the United States and could be ready in weeks”",
+            "strawman",
+            "The Government is not planning to force a vaccine on everyone. They are simply working on potential solutions to the ongoing pandemic and these vaccines are currently in trials to ensure their safety and effectiveness. Accusing the government of forcing a vaccine on people is an exaggeration and a strawman argument. The government has not made any official announcements or plans to mandate a vaccine.",
+            "This text uses the strawman logical fallacy by misrepresenting the government's plans to force a vaccine and creating a false argument against it. The initial statements suggest that the government is immediately forcing a vaccine on everyone, but this is not supported by the fact that there are only three potential vaccines in Stage 3 trials. This oversimplification and exaggeration of the situation is a common tactic used to discredit an opposing argument.",
+            "The goal of the text is to attack the government and create fear by portraying them as trying to force a vaccine on everyone, while ignoring the fact that there are multiple vaccines in development and none have been approved for mandatory use. This is an example of the strawman fallacy, as it misrepresents the government's plans and exaggerates the risk of a mandatory vaccine.",
+            "What evidence supports the counterargument that the government is not planning to force a vaccine on everyone and is simply working towards finding a solution for the ongoing pandemic?",
+            "How does this text utilize a logical fallacy and misrepresent the government's plans for a vaccine?",
+            "Do you think the language used in the first sentence of the text is misleading and designed to create fear towards the government's potential plans for a COVID-19 vaccine?",
+            -0.4090944849444,
+            -0.0016125364639000001,
+            -0.0105009820737,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ],
+            -0.00225702711633,
+            -6.8242232e-06,
+            -6.94342665e-06,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "Donald Trump owns stock in the vaccine developer Moderna, Inc.",
+            "no fallacy",
+            "Donald Trump's personal financial interests should not dictate public health decisions, and any bias or conflicts of interest in relation to the development and distribution of a COVID-19 vaccine should be carefully scrutinized.",
+            "This text provides information about Donald Trump, stating that he owns stock in the company Moderna, Inc. It does not provide any context or explanation for why he owns stock in this particular company, nor does it indicate the amount or value of the stock. This text could be considered biased or potentially controversial, as it may infer a conflict of interest for the former president. Further analysis may involve examining Trump's actions and decisions relating to the development and distribution of the COVID-19 vaccine and how they may be influenced by his ownership of Moderna stock.",
+            "The goal of this text is to inform the reader that Donald Trump has a financial interest in the company Moderna, Inc. because he owns stock in it.",
+            "How can we ensure that any potential conflicts of interest do not interfere with the proper development and distribution of a COVID-19 vaccine, especially considering that the President owns stock in a vaccine developer?",
+            "How might Donald Trump's ownership of stock in Moderna, Inc. potentially impact his decisions and actions related to the development and distribution of the COVID-19 vaccine?",
+            "How does this information about Donald Trump's ownership of stock in Moderna, Inc. potentially impact public perception of his decision-making regarding the COVID-19 pandemic?",
+            -0.020250213629,
+            -5.585398637165,
+            -0.54593235,
+            [
+                "Counterargument Query",
+                "Goal Query",
+                "Explanation Query"
+            ],
+            -0.017060192,
+            -5.931863e-05,
+            -0.00016694854,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "The Biden administration had to \"start from scratch\" with a comprehensive COVID-19 vaccine distribution plan because the Trump administration had no working plan.",
+            "faulty generalization",
+            "While it is true that the Trump administration did not have a fully developed vaccine distribution plan in place, it is unfair to say that they had no plan at all. The Trump administration had already begun distributing vaccines through Operation Warp Speed and had provided guidance to states on how to distribute vaccines. Additionally, the Biden administration has continued to build upon the existing plan rather than starting completely from scratch. Therefore, it cannot be said that the Trump administration had no plan whatsoever.",
+            "This text is an example of the logical fallacy faulty generalization, as it makes a sweeping generalization without providing sufficient evidence. While it may be true that the Biden administration had to make significant changes to the previous administration's plan, it does not necessarily mean that the Trump administration had no plan at all. This statement relies on a narrow perspective and ignores any potential progress or efforts made by the previous administration. Without more information, it is not necessarily accurate to claim that the Trump administration had no working plan for COVID-19 vaccine distribution.",
+            "By claiming that the Trump administration had no working plan, the text is using faulty generalization to suggest that no progress was made in terms of COVID-19 vaccine distribution under the previous administration. The goal of this text may be to critique the previous administration's handling of the pandemic and highlight the need for a new approach under the current administration.",
+            "Can it be argued that while the Trump administration may not have had a completely developed plan for vaccine distribution, they had at least laid some groundwork with Operation Warp Speed and provided guidance to states on distribution?",
+            "How can we accurately assess the effectiveness of the previous administration's plan for COVID-19 vaccine distribution without relying on faulty generalizations?",
+            "How does the statement that the Biden administration had to \"start from scratch\" with a COVID-19 vaccine distribution plan reflect a critique of the previous administration's approach to handling the pandemic?",
+            -0.10151862211149999,
+            -0.005633564906,
+            -0.01795793548,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ],
+            -0.0005912339443,
+            -0.0004033377873,
+            -0.86422483202,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "An image represents a schematic for a 'COVID 5G Chip.'",
+            "no fallacy",
+            "This claim has been debunked by multiple reliable sources and there is no scientific evidence to suggest that such a chip exists or is related to the spread of COVID-19.",
+            "This text is referring to a potential technology or device that is being associated with the ongoing COVID-19 pandemic and the rollout of 5G technology. The use of the word \"schematic\" suggests that this is a visual representation of the supposed chip and its components. The term \"COVID 5G Chip\" indicates that there is a belief that this technology is somehow related to the virus or its spread. The use of single quotes around the phrase suggests that it is not a commonly accepted or official term. The overall tone of the text is likely skeptical or questioning the validity of this idea.",
+            "The goal of this text is to inform or clarify the meaning or purpose of the image, which is to depict a schematic for a 'COVID 5G Chip.'",
+            "What evidence supports the claim that a 'COVID 5G Chip' exists and is responsible for the spread of the virus?",
+            "What potential logical fallacy can be seen in this text, where the use of single quotes around the term \"COVID 5G Chip\" suggests doubt or skepticism about its validity?",
+            "Can you provide any information or context behind the image of the 'COVID 5G Chip' schematic?",
+            -0.0022540651665,
+            -0.040922409018,
+            -0.0100751607958,
+            [
+                "Counterargument Query",
+                "Goal Query",
+                "Explanation Query"
+            ],
+            -7.6915971e-05,
+            -0.0010189945,
+            -0.0008508439,
+            [
+                "Counterargument Query",
+                "Goal Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "The storyline of \"I Am Legend\" takes place in 2021 and centers on a zombie outbreak that was caused by a vaccine.",
+            "no fallacy",
+            "While the premise of a zombie outbreak caused by a vaccine may seem far-fetched, the film actually raises important questions about the role of science and government in creating and handling such a catastrophic event.",
+            "This text is a brief summary of the plot of the movie \"I Am Legend\". It mentions the setting (2021) and the central conflict (zombie outbreak) and the cause of the outbreak (a vaccine). It provides a general overview of the main events and themes of the story.",
+            "The goal of this text is to provide information about the setting and premise of the movie \"I Am Legend\".",
+            "How does the film's portrayal of a zombie outbreak caused by a vaccine shed light on the potential consequences of actions taken by the scientific and governmental institutions?",
+            "What literary devices are prevalent in \"I Am Legend\" based on this brief summary of the plot?",
+            "What is the year and main conflict of \"I Am Legend\"?",
+            -0.1788515018505,
+            -0.12201184796100001,
+            -0.572297064331,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -0.46486396,
+            -2.1008714e-06,
+            -1.147242e-06,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "“Can't make a vaccine that works for influenza. No vaccine for RSV. Can't cure cancer. But they sure as shit can make a vaccine in 6 months for an illness that they STILL don't understand”",
+            "red herring",
+            "Just because certain diseases or illnesses do not have a cure or effective vaccine does not mean that it is impossible for a vaccine to be developed for a different illness. Each disease has its own unique characteristics and requires different approaches in finding a cure or vaccine. The success of developing a vaccine for one illness does not diminish the difficulty in finding treatments for other diseases.",
+            "The logical fallacy in this text is a red herring. The author is attempting to divert attention away from the issue of creating a vaccine for a new disease by bringing up other instances where vaccines or cures are not readily available. This argument is not relevant to the main topic at hand and is used to distract or discredit the effectiveness of creating a vaccine for the new illness.",
+            "The goal of this text is to criticize the speed at which scientists have been able to create a vaccine for COVID-19, suggesting that their priorities may be misplaced and indicating a red herring fallacy. They use examples of other diseases that do not have vaccines or cures to imply that the focus on creating a COVID-19 vaccine is misguided.",
+            "How does the argument acknowledging the challenges of finding vaccines for certain diseases undermine the belief that COVID-19 vaccines were developed too quickly?",
+            "How does the author's use of a red herring in this text deflect from the main topic of creating a vaccine for a new illness?",
+            "How does the speaker's use of sarcasm and comparisons to other diseases support their criticism of the speed at which a COVID-19 vaccine was developed?",
+            -0.011807162037,
+            -0.0030785794958,
+            -0.040972612592399996,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -4.6757450649999996e-05,
+            -1.1830777399999999e-05,
+            -2.923451133e-05,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "The Covid vaccine will make you infertile.",
+            "evading the burden of proof",
+            "There is no evidence to support the claim that the Covid vaccine causes infertility. Without sufficient evidence, this claim holds no weight and should not be used to discourage people from getting vaccinated. The burden of proof lies on those making the claim, and until they provide valid evidence, it should not be taken seriously.",
+            "This statement is an example of evading the burden of proof fallacy. The person making the claim is putting forth a controversial and serious allegation without providing any evidence or proof to back it up. They are expecting the audience to accept their claim without any real evidence, thus avoiding the burden of proving their statement. Without any evidence, the claim remains unsubstantiated and should not be taken as truth.",
+            "The goal of this text is to spread misinformation and fear about the Covid vaccine by making an unfounded claim without providing any evidence. This is an example of evading the burden of proof, as the speaker is making a claim without backing it up with reliable information or evidence. Their goal may be to discourage people from getting the vaccine by using fear tactics.",
+            "Is it fair to spread fear and misinformation about the Covid vaccine and its potential effects on fertility without factual evidence to support the claim?",
+            "What is the fallacy in the statement that the Covid vaccine will make you infertile?",
+            "What evidence does the speaker have to support their claim that the Covid vaccine will make people infertile?",
+            -0.001305792275,
+            -0.0039709171007000004,
+            -0.000381176906,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -3.48652055e-06,
+            -4.3209459999999996e-06,
+            -8.49307465e-06,
+            [
+                "Counterargument Query",
+                "Explanation Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "“CONFIRMED - aborted male fetus in [COVID-19] vaccine”",
+            "cherry picking",
+            "While one reported case of an aborted male fetus being used in vaccine production is concerning, it is important to consider the larger testing and production process of vaccines, which involves rigorous safety regulations and multiple ethical reviews. Additionally, this isolated incident does not negate the overall effectiveness and benefit of vaccines in preventing the spread of diseases and saving lives. To solely focus on this one example is cherry picking and disregards the overwhelming evidence of successful and safe vaccine use for public health.",
+            "This text is an example of cherry picking, which is a logical fallacy where the person selectively chooses information or evidence to support their argument while ignoring contradicting information. In this case, the person is using one piece of information (the alleged presence of an aborted male fetus in the COVID-19 vaccine) to discredit the entire vaccine, without considering any other evidence or information about its safety or efficacy. This is a flawed argument because it disregards a vast amount of scientific research and data that supports the effectiveness and safety of the COVID-19 vaccine. By cherry picking this one piece of information, the person is trying to manipulate others into believing their viewpoint without providing a full and balanced analysis of the situation.",
+            "This text is using cherry picking as a logical fallacy by presenting a singular, unconfirmed incident as evidence against the entire COVID-19 vaccine. The goal of this text is to spread false information and create doubt about the safety and efficacy of the vaccine.",
+            "How can this one reported case of an aborted male fetus being used in vaccine production be used to discredit the overall effectiveness and benefit of vaccines in preventing the spread of diseases and saving lives?",
+            "How does cherry picking in this text disregard a significant amount of scientific research and data that supports the effectiveness and safety of the COVID-19 vaccine?",
+            "How might this text's use of cherry picking contribute to misinformation and doubt surrounding the COVID-19 vaccine?",
+            -0.005906771746,
+            -0.0066376785737,
+            -0.0009038007775,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -0.000451242995,
+            -0.00022113406265,
+            -0.00072048932365,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "“refusal to make these medicines available is no different than murdering the patients who need them”.",
+            "false analogy",
+            "Refusing to provide medication is not the same as actively taking someone's life. It is important to consider the complexity and potential consequences of making certain medicines available and to explore alternate solutions for those in need. Additionally, the decision to provide medication should be based on evidence and medical ethics, not a simplistic comparison to murder.",
+            "This text uses a false analogy by comparing the refusal to make medicines available to murder, implying that they are equivalent in terms of severity and intent. However, refusing to make medicines available is a decision based on resource allocation and availability, while murder is a deliberate and illegal act. Therefore, the analogy is incorrect and misleading.",
+            "The logical fallacy in this text is false analogy, as it is incorrect to equate not providing medication to murder. The goal of this text is to persuade the reader to advocate for the availability of these medicines by using an emotionally manipulative comparison.",
+            "What evidence and ethical considerations should be taken into account when deciding whether or not to make certain medicines available to patients in need?",
+            "What is the flaw in comparing the refusal to make medicines available to murder in this text?",
+            "How does the use of false analogy in this text appeal to the reader's emotions and potentially sway their opinion on the availability of these medicines?",
+            -0.0169122197775,
+            -0.1524839261847,
+            -0.0028591677333,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -0.00021815398,
+            -4.246612e-05,
+            -9.4467036e-06,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "The Covid-19 test is the vaccine and if you get tested you have been vaccinated.",
+            "no fallacy",
+            "While getting tested for Covid-19 can provide some level of protection against the virus, it is not the same as receiving a vaccine. A vaccine works by teaching the body's immune system to recognize and fight against a virus, while a test simply detects if the virus is currently present in the body. It is important to get both tested and vaccinated to fully protect against Covid-19.",
+            "This text is a statement that equates the Covid-19 test with the vaccine. It also suggests that being tested for Covid-19 is equivalent to being vaccinated, implying that the test itself provides immunity against the virus. This statement is not entirely accurate, as vaccination involves the administration of a specific vaccine while testing only detects the presence of the virus. The text may also be interpreted as downplaying the importance of vaccination, as it implies that simply getting tested is enough to prevent the spread of Covid-19. Overall, this text presents a confusion between testing and vaccination and may lead to misunderstandings about the proper steps to protect against the virus.",
+            "The goal of this text is to inform the reader about the relationship between Covid-19 testing and vaccination and to emphasize the importance of getting tested for the virus.",
+            "What is the difference between getting tested for Covid-19 and receiving a vaccine, and why is it important to do both?",
+            "What logical fallacy is present in this statement and how does it contribute to potential misunderstandings about Covid-19 prevention?",
+            "How does the text promote the importance of Covid-19 testing and its relationship to vaccination?",
+            -3.436027e-05,
+            -4.61614317e-05,
+            -0.0012293735060000001,
+            [
+                "Counterargument Query",
+                "Explanation Query",
+                "Goal Query"
+            ],
+            -1.6002906e-05,
+            -6.70501965e-06,
+            -1.0683535e-05,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "Make sure you and your family all dig out your NHS number and have a copy of it immediately to hand for the Covid jab. NHS staff on the front line say this is the biggest bottleneck when it comes to administering the vaccine to as many people as quickly as possible.",
+            "irrelevant authority",
+            "While it is important to have one's NHS number readily available, the presence of this bottleneck does not necessarily mean that obtaining and having a copy of it immediately on hand will significantly impact the speed of administering the vaccine. There could be other factors at play, such as supply and distribution of the vaccine, which could ultimately have a greater impact on the timely administration of the Covid jab.",
+            "The text implies that the statement made by \"NHS staff on the front line\" automatically makes it a valid and reliable source of information. However, the authority of these individuals does not necessarily make their statement true or relevant to the issue at hand. This is an example of the logical fallacy of irrelevant authority, where the credibility or expertise of the source is used to support an argument that is not directly related to their area of expertise. In this case, the statement about having an NHS number for the Covid jab may be valid, but the reasoning behind it is based on the irrelevant authority of NHS staff.",
+            "The goal of the text is to encourage individuals to have their NHS number readily available for receiving the Covid vaccine, citing front line NHS staff as authority on the matter by claiming it as the biggest bottleneck. This is an example of the irrelevant authority fallacy as the front line NHS staff's expertise on administering the vaccine does not necessarily make them experts on the importance of having one's NHS number readily available.",
+            "Is having a copy of one's NHS number immediately on hand truly the biggest bottleneck in administering the Covid vaccine, or are there other factors that play a larger role in slowing down the process?",
+            "What logical fallacy is exemplified in this text, and how does it affect the credibility of the statement being made?",
+            "How does the use of authority in this text potentially weaken the argument for having one's NHS number readily available for the Covid vaccine?",
+            -0.0478579475007,
+            -0.10238379707300001,
+            -0.037655445814,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -0.0075193039444,
+            -2.4584822e-06,
+            -0.56335539361265,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "Two scientific studies found that men should inject the COVID-19 vaccine into the penis, and that the vaccine increased penis size among some men.",
+            "no fallacy",
+            "While these studies may have found a correlation between the COVID-19 vaccine and increased penis size, it is important to consider other factors that may have contributed to this result. It is possible that the men who received the vaccine also engaged in behaviors or used products that could have led to an increase in penis size. Additionally, the sample size of the studies may not have been representative of the general male population, making it difficult to generalize the results. More research and evidence is needed before making such a bold claim about the potential benefits of the COVID-19 vaccine on male genitalia.",
+            "This text presents information from two scientific studies suggesting that men should inject the COVID-19 vaccine into the penis. It also mentions that the vaccine has been found to increase penis size in some men, potentially indicating potential benefits beyond just protecting against COVID-19. This information may be surprising to those who are not familiar with the topic, and it highlights the potential for further research and development in the field of vaccines and male reproductive health.",
+            "The goal of this text is to inform the reader about the results of two scientific studies regarding the COVID-19 vaccine's potential effect on penis size in men.",
+            "What other factors besides the COVID-19 vaccine may have contributed to the increase in penis size among the men in the scientific studies?",
+            "What potential implications and consequences does this information have for the development and promotion of vaccines in the future?",
+            "What are the main findings of the two scientific studies mentioned in the text about the correlation between the COVID-19 vaccine and penis size in men?",
+            -0.00018108896960000002,
+            -7.76312044e-05,
+            -0.00025593054100000003,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -0.17559942361265,
+            -0.00083774247,
+            -0.028532983612649998,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "“The COVID-19 pandemic is not a real medical pandemic”; “The COVID-19 vaccine is not proven safe or effective”",
+            "irrelevant authority",
+            "While it is true that the individual making these statements is a medical professional, their expertise does not necessarily extend to the subject of a global pandemic. Additionally, the safety and efficacy of the COVID-19 vaccine have been rigorously tested and approved by multiple regulatory agencies, making it a credible and necessary tool in fighting the spread of the virus.",
+            "This text contains the logical fallacy of irrelevant authority. The first statement is made by a person who is not a medical expert and has no relevant authority or expertise on the subject of pandemics. The second statement is also made by someone who is not a qualified expert on vaccine safety and effectiveness. The opinions of these individuals are irrelevant to the scientific facts and evidence surrounding the COVID-19 pandemic and vaccine. Just because someone may have a personal opinion or belief does not make it a valid or credible argument. It is important to rely on trustworthy and qualified sources when discussing important topics like public health.",
+            "The goal of this text is to mislead or discredit the severity and legitimacy of the COVID-19 pandemic and vaccination efforts by citing an irrelevant authority. By claiming that the pandemic is not real and the effectiveness of the vaccine is unproven, the speaker is using their perceived authority or expertise to undermine widely accepted scientific evidence and recommendations. Despite not being a medical expert or having evidence to support their claims, the speaker is attempting to persuade others to doubt the validity of the pandemic and necessary measures such as vaccination.",
+            "How does the expertise of the individual making the statement about the COVID-19 pandemic and vaccine impact the validity of their claims?",
+            "How can we ensure that the information we receive about the COVID-19 pandemic and vaccine is trustworthy and based on scientific evidence rather than personal opinions?",
+            "How does the speaker attempt to discredit the COVID-19 pandemic and vaccine efforts with their claims?",
+            -0.0032325835554,
+            -0.003841632262,
+            -0.000420976266,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -0.00032033064,
+            -3.96333515e-06,
+            -9.014684e-06,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "Aluminium in vaccines can cause Alzheimer’s disease.",
+            "evading the burden of proof",
+            "While some may believe that aluminium in vaccines can cause Alzheimer’s disease, there is currently no scientific evidence to support this claim. The burden of proof lies on those making the assertion, and until they can provide solid evidence, it cannot be accepted as fact. In fact, numerous studies have shown that the amount of aluminium in vaccines is negligible and poses no threat to human health. Therefore, the claim that aluminium in vaccines causes Alzheimer’s disease is an example of evading the burden of proof.",
+            "This text evades the burden of proof logical fallacy as it makes a claim without providing any evidence to support it. Instead of presenting facts or studies to back up the statement that aluminium in vaccines causes Alzheimer's disease, the text simply states it as a fact. This tactic shifts the responsibility of proving the statement onto the reader, rather than providing evidence themselves. It also uses exaggeration and fear-mongering to persuade the reader, another tactic commonly associated with the evading the burden of proof fallacy. Without any supporting evidence, the statement remains unsubstantiated and should not be accepted as true.",
+            "This text is making a claim that is supported by an unproven or unverified statement. By stating that aluminium in vaccines can cause Alzheimer's disease, the author is attempting to shift the burden of proof onto the audience to disprove their statement. The goal of the text is to persuade the reader that vaccines are harmful due to the inclusion of aluminium, despite lacking concrete evidence to support this claim.",
+            "Can you provide scientific evidence to support the claim that aluminium in vaccines can cause Alzheimer's disease?",
+            "Can you provide any evidence or studies to support the claim that aluminium in vaccines causes Alzheimer's disease, rather than simply stating it as a fact?",
+            "What evidence does the author provide to support the claim that aluminium in vaccines can cause Alzheimer's disease?",
+            -0.0861438225554,
+            -0.0051420694813,
+            -0.19139787653700002,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ],
+            -2.625442065e-05,
+            -4.9169643300000005e-06,
+            -2.792327165e-05,
+            [
+                "Explanation Query",
+                "Counterargument Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "Pfizer vaccine \"page 132\" warns not to have unprotected sex for 28 days after the second dose of the COVID-19 vaccine because \"genetic manipulation\" may cause birth defects.",
+            "no fallacy",
+            "There is no scientific evidence to suggest that the Pfizer vaccine can cause genetic manipulation or birth defects. The warning on \"page 132\" may only be precautionary and based on theoretical risks. Moreover, the benefits of being protected against COVID-19 far outweigh any minimal risks associated with the vaccine. It is important to trust in the extensive testing and approval processes that the Pfizer vaccine has undergone and to continue practicing safe and protected sex regardless.",
+            "This text is discussing a warning related to the Pfizer vaccine for COVID-19. The warning, which can be found on page 132 of the vaccine's information, states that individuals should not engage in unprotected sex for 28 days after receiving their second dose of the vaccine. This is due to concerns that the vaccine's \"genetic manipulation\" may have negative effects on potential pregnancies, potentially causing birth defects. This text reveals important information about the potential risks associated with the Pfizer vaccine and emphasizes the importance of following medical recommendations.",
+            "The goal of this text is to inform people of a potential side effect of the Pfizer COVID-19 vaccine and to warn them to take precautions in regards to unprotected sex for a certain period of time after receiving the vaccine.",
+            "How reliable and accurate is the warning on \"page 132\" of the Pfizer vaccine regarding potential birth defects and genetic manipulation?",
+            "What potential issue does the Pfizer vaccine's warning on page 132 raise regarding unprotected sex after receiving the second dose of the vaccine?",
+            "What precautions should be taken after receiving the second dose of the Pfizer COVID-19 vaccine to prevent potential birth defects?",
+            -0.000452435027,
+            -0.000274761046,
+            -0.0002111246237,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ],
+            -4.341974965e-05,
+            -0.00025740577,
+            -0.00010831134,
+            [
+                "Counterargument Query",
+                "Goal Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "“An infertility drug [in the tetanus vaccine] sterilized over 500,000 Kenyan women under the Bill and Melinda Gates Foundationt”",
+            "false causality",
+            "There is no scientific evidence to support the claim that the infertility drug in the tetanus vaccine caused sterilization in 500,000 Kenyan women. There could be other factors at play, such as preexisting medical conditions or other drugs taken by these women. Additionally, the Bill and Melinda Gates Foundation has a strong track record of supporting healthcare initiatives and there is no reason to believe that they would intentionally harm women in Kenya.",
+            "This text contains the logical fallacy of false causality. It assumes that the inclusion of an infertility drug in the tetanus vaccine is the direct cause of the sterilization of 500,000 Kenyan women, without providing any evidence or proof to support this claim. There could be other factors at play that led to the sterilization, and it can't be assumed that the infertility drug was the sole cause. Additionally, the mention of the Bill and Melinda Gates Foundation is irrelevant and does not provide any logical connection to the alleged sterilization. This type of fallacy is often used in conspiracy theories and misinformation campaigns to make false and unsubstantiated claims seem more credible.",
+            "The false causality fallacy is present in this text as it assumes that the infertility drug and the tetanus vaccine are directly linked and caused the sterilization of over 500,000 Kenyan women under the Bill and Melinda Gates Foundation. The goal of this text seems to spread misinformation and create a negative view of the Bill and Melinda Gates Foundation and their efforts to improve healthcare in Kenya.",
+            "What evidence can you provide to support the claim that the infertility drug in the tetanus vaccine caused sterilization in 500,000 Kenyan women, and how do you address the counterargument that there may have been other factors involved?",
+            "What other factors could potentially have contributed to the sterilization of 500,000 Kenyan women, besides the inclusion of an infertility drug in the tetanus vaccine, and how can we determine the true cause?",
+            "How does this text manipulate and spread misinformation by falsely attributing the sterilization of women to the Bill and Melinda Gates Foundation's efforts in providing healthcare in Kenya?",
+            -0.000562166636,
+            -0.0009124952375000001,
+            -1.42148497e-05,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -9.08909265e-06,
+            -0.00010409441633,
+            -3.60572415e-06,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "“Coronavirus horror: Volunteer in Oxford University’s COVID-19 vaccine trial DIES”",
+            "cherry picking",
+            "While it is unfortunate that a volunteer in the trial has passed away, it is important to note that the death was not directly caused by the vaccine. The vaccine has been tested extensively and proven to be safe and effective. This one instance should not overshadow the countless successful cases of the vaccine and the potential lives it could save. Cherry-picking one negative event does not accurately represent the overall truth about the vaccine.",
+            "This text is an example of cherry picking, a logical fallacy that involves selectively choosing information to support one's argument or position while ignoring or omitting contradictory information. In this case, the use of dramatic language and emphasis on the word \"DIES\" is meant to sensationalize and evoke fear about the safety of the COVID-19 vaccine trial without providing any context or data about the trial's overall success or safety record. By intentionally highlighting this one isolated incident, the text disregards any context or evidence that may contradict the idea of potential harm or suspicions towards the vaccine trial, leading to a biased and inaccurate portrayal of the situation.",
+            "The goal of this text is to use cherry picking by focusing on one negative outcome from a COVID-19 vaccine trial to spread fear and discourage people from participating in similar trials. By only highlighting one instance of death, the text ignores any potential positive outcomes or benefits of participating in vaccine trials and instead plays on people's fears and emotions.",
+            "Can one negative event overshadow the safety and effectiveness of a vaccine that has been extensively tested and proven successful?",
+            "How does this text use cherry picking to manipulate readers' perceptions about the safety of the COVID-19 vaccine trial at Oxford University?",
+            "How does this text use the cherry picking technique to influence public opinion about COVID-19 vaccine trials?",
+            -0.0542633637593,
+            -0.0014448387813000001,
+            -0.001354838237,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ],
+            -7.238624033e-05,
+            -0.00289149552,
+            -0.00073002191633,
+            [
+                "Counterargument Query",
+                "Goal Query",
+                "Explanation Query"
+            ]
+        ],
+        [
+            "The COVID-19 RNA vaccine “is not a vaccine”; a vaccine has to disrupt transmission by CDC and FDA standards; the vaccine “activate[s] the cell to become a pathogen-manufacturing site”",
+            "vagueness",
+            "While the COVID-19 RNA vaccine may not disrupt transmission by CDC and FDA standards, it still serves as a preventative measure against severe illness and death caused by the virus. Therefore, it can still be considered a vaccine and should not be dismissed based on a narrow definition. Additionally, the claim that the vaccine \"activates the cell to become a pathogen-manufacturing site\" is vague and lacks scientific evidence to support it. Without specific and verifiable information, this statement cannot be taken seriously and should not be used to discount the effectiveness of the vaccine.",
+            "This text contains the fallacy of vagueness, as it uses unclear language and lacks specific details to support its claims. The term \"vaccine\" is not clearly defined and the standards set by the CDC and FDA are not specified. Additionally, the phrase \"activate the cell to become a pathogen-manufacturing site\" is vague and lacks evidence or explanation. It also suggests a false equivalence between traditional vaccines and the COVID-19 RNA vaccine. Without defining and providing evidence for these terms and claims, the argument becomes weak and unreliable.",
+            "The goal of the text is to criticize and discredit the COVID-19 RNA vaccine by arguing that it does not meet the standard definition of a vaccine and that it may actually have harmful effects on the body. This argument manipulates the vague and subjective definition of a \"vaccine\" to incite doubt and skepticism about the safety and efficacy of the COVID-19 RNA vaccine.",
+            "How would you respond to the argument that the COVID-19 RNA vaccine may not meet CDC and FDA standards for disrupting transmission, but still serves a crucial role in preventing severe illness and death?",
+            "What specific standards set by the CDC and FDA are necessary for a vaccine to disrupt transmission and how does the COVID-19 RNA vaccine fail to meet these standards?",
+            "How does the text use the CDC and FDA standards to argue against the classification of the COVID-19 RNA vaccine as a true vaccine?",
+            -0.0013513885924,
+            -0.001118270263,
+            -0.0009764526007,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ],
+            -6.8094904e-05,
+            -1.0325924e-05,
+            -1.1473166e-05,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "The Vatican said it's morally acceptable for Catholics to receive a coronavirus vaccine, even though the vaccines were developed using research on cells from fetuses that were aborted \"in the last century.\"",
+            "no fallacy",
+            "However, some Catholics may argue that by receiving a vaccine developed using cells from aborted fetuses, they are indirectly supporting and condoning the practice of abortion, which goes against their religious beliefs. They may also argue that there are alternative vaccines available that do not utilize controversial research methods.",
+            "This text discusses the Vatican's stance on receiving a coronavirus vaccine, despite the fact that the vaccines were developed using cells from aborted fetuses. The Vatican has deemed it morally acceptable for Catholics to receive the vaccine, emphasizing that the abortions occurred in the past century and were not directly linked to the vaccine development process. This text brings up ethical considerations surrounding the use of fetal cells in medical research and the intersection of religion and science in the context of healthcare decisions.",
+            "The goal of this text is to inform readers about the statement made by the Vatican regarding the moral acceptability of receiving coronavirus vaccines, despite their use of fetal cells in their development.",
+            "How might Catholic individuals who disagree with the Vatican's stance on receiving coronavirus vaccines view their decision as contradictory to their beliefs?",
+            "How does the Vatican's stance on receiving the COVID-19 vaccine reflect the ongoing ethical debate surrounding the use of fetal cells in medical research and the influence of religion on healthcare decisions?",
+            "How does the Vatican justify the use of fetal cells in the development of coronavirus vaccines as morally acceptable for Catholics?",
+            -0.003916076276,
+            -0.009106628276,
+            -0.015651685999600002,
+            [
+                "Counterargument Query",
+                "Explanation Query",
+                "Goal Query"
+            ],
+            -1.569009e-05,
+            -1.7432603e-06,
+            -1.504853e-06,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "“Portuguese nurse dies two days after getting the Pfizer Covid vaccine”",
+            "false causality",
+            "Just because the Portuguese nurse died two days after receiving the Pfizer Covid vaccine does not necessarily mean that the vaccine caused her death. There can be other underlying health conditions or factors that contributed to her death. Additionally, millions of people have received the vaccine without experiencing any adverse effects, so this could simply be a coincidence rather than a direct causation. It would require further investigation and scientific evidence to prove that the vaccine was the definitive cause of her death.",
+            "The logical fallacy present in this text is false causality, also known as post hoc ergo propter hoc. This fallacy assumes that just because one event happened before another, it must have caused the second event. In this case, the text implies that the nurse's death was caused by getting the Pfizer Covid vaccine, simply because it occurred two days after receiving the vaccine. However, there could be other factors at play that caused the nurse's death, and there is no evidence to support a direct causal relationship between the vaccine and the nurse's death. It is important to gather more information and evidence before jumping to conclusions based on a temporal relationship between two events.",
+            "The goal of this text is to imply that the Pfizer Covid vaccine caused the death of the Portuguese nurse, when in reality there is no evidence to support this claim and the death could be due to other causes. This is an example of false causality, where two events that are not necessarily related are being linked together. The text is trying to incite fear or doubt about the safety of the vaccine.",
+            "How can we determine whether the Pfizer Covid vaccine was the cause of the Portuguese nurse's death, without jumping to conclusions based on a single case?",
+            "What other factors could have potentially caused the nurse's death besides receiving the Pfizer Covid vaccine?",
+            "Did the article provide any scientific evidence to support the claim that the nurse's death was caused by the Pfizer Covid vaccine?",
+            -3.4185987,
+            -0.6950731,
+            -0.1420691584822,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ],
+            -1.5287683649999998e-05,
+            -4.413496865e-05,
+            -5.188321e-05,
+            [
+                "Counterargument Query",
+                "Explanation Query",
+                "Goal Query"
+            ]
+        ],
+        [
+            "Mandatory vaccines became law from Wednesday 6 January 2021.",
+            "no fallacy",
+            "1. Some people argue that mandatory vaccines violate individual rights and personal freedoms.\n2. Others argue that mandatory vaccines restrict parental choice and decision making.\n3. There is concern that mandatory vaccines could lead to government overreach and infringement on citizens' rights.\n4. Some believe that mandatory vaccines prioritize public health over individual autonomy.\n5. There are concerns about the potential long-term effects and safety of mandatory vaccines.\n6. Those who oppose mandatory vaccines argue that individuals should have the right to choose what goes into their bodies.\n7. Some argue that imposing mandatory vaccines is a form of medical discrimination against those who may have legitimate reasons for not wanting to be vaccinated.\n8. There are concerns about the cost and accessibility of mandatory vaccines for low-income individuals and communities.\n9. Mandatory vaccines may also perpetuate mistrust in government and the healthcare system among certain populations.\n10. Critics argue that instead of mandating vaccines, efforts should focus on educating the public and promoting voluntary vaccination.",
+            "This text indicates that a new law regarding mandatory vaccines went into effect on January 6th, 2021. This suggests that individuals in a certain jurisdiction may now be required by law to receive certain vaccinations. It also implies that prior to this date, receiving vaccinations was not mandatory.",
+            "The goal of this text is to inform readers about the implementation of mandatory vaccines as a law starting from a specific date.",
+            "How do proponents of mandatory vaccines address concerns about infringement on individual rights and parental choice?",
+            "What potential impact might this new law have on individuals who do not wish to receive vaccinations?",
+            "What information does this text provide about the implementation of mandatory vaccines?",
+            -0.16845329,
+            -0.47097198459240003,
+            -0.014279741,
+            [
+                "Goal Query",
+                "Counterargument Query",
+                "Explanation Query"
+            ],
+            -2.0815847e-05,
+            -7.89631e-07,
+            -1.0280384e-06,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ]
+        ],
+        [
+            "U.S. President-elect Joe Biden said he will get the COVID-19 vaccination in public on television.",
+            "no fallacy",
+            "Some may argue that Biden's public vaccination is merely a superficial gesture to gain public trust, as opposed to being a genuine display of his confidence in the vaccine's effectiveness.",
+            "This text states that Joe Biden, who has been elected as the President of the United States, has announced that he intends to receive the COVID-19 vaccine in front of the public and on television. This could possibly be a way for him to promote public trust in the vaccine and its safety, as well as set an example for others to follow. It also shows that he takes the pandemic seriously and is willing to take action to combat it.",
+            "The goal of the text is to announce that U.S. President-elect Joe Biden has stated he will publicly receive the COVID-19 vaccination on television.",
+            "How do Biden's critics view his public COVID-19 vaccination and why do they question its authenticity?",
+            "How does Joe Biden's decision to receive the COVID-19 vaccine in public and on television potentially combat common fallacies surrounding the vaccine's safety and effectiveness?",
+            "What is the purpose of U.S. President-elect Joe Biden's announcement of receiving the COVID-19 vaccination in public on television?",
+            -0.08445095,
+            -0.003399552,
+            -0.009964077,
+            [
+                "Explanation Query",
+                "Goal Query",
+                "Counterargument Query"
+            ],
+            -1.6240566e-06,
+            -9.0883464e-07,
+            -5.5122365e-07,
+            [
+                "Goal Query",
+                "Explanation Query",
+                "Counterargument Query"
+            ]
+        ]
+    ]
+}
