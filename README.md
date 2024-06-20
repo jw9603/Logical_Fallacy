@@ -11,5 +11,9 @@ If you have any questions, feel free to ask at any time.
 
 ![Model Below](./fig/fig_model_below.png)
 
+## Preliminaries
+1. You need Chatgpt API.
+2. You need LLaMA2 and LLaMA3 API. https://huggingface.co/meta-llama
+
 
 
