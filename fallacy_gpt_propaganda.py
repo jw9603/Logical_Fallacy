@@ -144,24 +144,7 @@ if __name__ =='__main__':
     ground_truth = []
     gpt_preds = []
     confidences = []
-    # print('hi')
-    # completion, mode= Argotario_multi_fallacy_classification_no_query_zero_list("question:Should we allow animal testing for medical purposes?, answer:A friend of mine told me that animal testing doesn't do any good anyway.")
-    # pred = completion.choices[0].message.content
-    
-    # print(pred)
-    # print('\n')
-    # print('prob',completion.choices[0].logprobs)
-    # logprobs = completion.choices[0].logprobs
-    # print(len(logprobs.content)) # 4
-    # total_logprobs = [logprobs.content[i].logprob for i in range(len(logprobs.content))]
-    # confidence_score = sum(total_logprobs)
-    # print('\n')
-    # print(completion.choices[0].logprobs.content[0].logprob)
-    # print('total',total_logprobs)
-    # print('conf',confidence_score)
-    # print(math.exp(confidence_score))
-    # assert -1 == 0
-    
+
     
     # random_query_prompt = [['Counterargument Query','Explanation Query','Goal Query'],['Counterargument Query','Goal Query','Explanation Query'],['Explanation Query','Counterargument Query','Goal Query'],['Explanation Query','Goal Query','Counterargument Query'],['Goal Query','Counterargument Query','Explanation Query'],['Goal Query','Explanation Query','Counterargument Query']]
     ranking_prompt = ['Counterargument Query','Explanation Query','Goal Query']
@@ -173,9 +156,8 @@ if __name__ =='__main__':
     with open('./result/propaganda/gpt-3.5-turbo_no_def_result_seed0_1time_15class.txt','w') as output_file:
 
         import sys
-        # 기존의 stdout을 백업합니다.
         original_stdout = sys.stdout
-        # 출력을 파일로 리디렉션합니다.ㅌ
+
         sys.stdout = output_file
         for sample in json_data['test']:
   
