@@ -140,7 +140,7 @@ if __name__ =='__main__':
     with open('./new_data/LOGIC/LOGIC_test.json') as f:
         json_data = json.load(f)
         
-    # ranking_prompt = ['Counterargument Query','Explanation Query','Goal Query']
+
     TOTAL_CALLS = len(json_data['test'])
 
     with open('./result/LOGIC/gpt-3.5-turbo_no_query_result_seed0_1time_5class.txt','w') as output_file:
@@ -194,11 +194,6 @@ if __name__ =='__main__':
             elif 'equivocation' == sample[1]:
                 ground_truth.append(13)
             
-            # elif 'no fallacy' == sample[1]:
-                # ground_truth.append(4)
-            # else:
-            #     ground_truth.append(0)
-                
             # Create a completion and a prediction with CHAT-CPT
            
             
