@@ -298,7 +298,7 @@ if __name__ =='__main__':
                 gpt_preds.append(7)
             elif 'name' in pred.lower():
                 gpt_preds.append(8)
-            elif 'whatboutism' in pred.lower():
+            elif 'whataboutism' in pred.lower():
                 gpt_preds.append(9)
             elif 'cause' in pred.lower() or 'causality' in pred.lower():
                 gpt_preds.append(10)
