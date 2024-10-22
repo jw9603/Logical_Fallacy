@@ -153,7 +153,7 @@ if __name__ =='__main__':
      
         
     TOTAL_CALLS = len(json_data['test'])
-    with open('./result/Argotario/gpt-3.5-turbo_ex_query_cbr_result_seed0_1time_5class.txt','w') as output_file:
+    with open('./result/Argotario/gpt-3.5-turbo_no_query_result_seed0_1time_5class.txt','w') as output_file:
         import sys
 
         original_stdout = sys.stdout
