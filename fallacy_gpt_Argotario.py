@@ -34,7 +34,6 @@ def Argotario_multi_fallacy_classification_no_query_zero_list(text):
     cmpl = client.chat.completions.create(
         model='gpt-3.5-turbo',
         # model='gpt-4',
-        # model='gpt-3.5-turbo-16k-0613',
         messages=[
             {"role":"system",
              "content":"Your task is to detect a fallacy in the Text. The label can be 'Appeal to Emotion' and 'Faulty Generalization' and 'Red Herring' and 'Ad Hominem' and 'Irrelevant Authority'.\nPlease detect a fallacy in the Text."},
@@ -157,7 +156,6 @@ if __name__ =='__main__':
         
     TOTAL_CALLS = len(json_data['test'])
     with open('./result/Argotario/gpt-3.5-turbo_ex_query_cbr_result_seed0_1time_5class.txt','w') as output_file:
-    # with open('./result/Argotario/gpt-3.5-turbo-test_query_comb_only_prompt_ranking_perspective.txt','w') as output_file:
         import sys
         # 기존의 stdout을 백업합니다.
         original_stdout = sys.stdout
