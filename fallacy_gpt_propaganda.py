@@ -147,7 +147,6 @@ if __name__ =='__main__':
 
     
     # random_query_prompt = [['Counterargument Query','Explanation Query','Goal Query'],['Counterargument Query','Goal Query','Explanation Query'],['Explanation Query','Counterargument Query','Goal Query'],['Explanation Query','Goal Query','Counterargument Query'],['Goal Query','Counterargument Query','Explanation Query'],['Goal Query','Explanation Query','Counterargument Query']]
-    ranking_prompt = ['Counterargument Query','Explanation Query','Goal Query']
     with open('./new_data/propaganda/propaganda_test.json') as f:
         json_data = json.load(f)
      
