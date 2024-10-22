@@ -130,9 +130,7 @@ def multi_fallacy_classification_query_ranking_zero_list(text,response,query1,qu
 
 
 if __name__ =='__main__':
-    # CALLS = 0
-    # FREE_TIER_LIMIT = 100  # Set this according to the free tier's rate limit
-    # WAIT_TIME = 60  # Set the waiting time according to the free tier's reset time (in seconds)
+
     CALLS = 0  # Initialize the API call counter
     mode = 'None'
     
@@ -151,7 +149,7 @@ if __name__ =='__main__':
      
         
     TOTAL_CALLS = len(json_data['test'])
-    with open('./result/propaganda/gpt-3.5-turbo_no_def_result_seed0_1time_15class.txt','w') as output_file:
+    with open('./result/propaganda/gpt-3.5-turbo_no_query_result_seed0_1time_15class.txt','w') as output_file:
 
         import sys
         original_stdout = sys.stdout
