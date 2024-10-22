@@ -141,7 +141,7 @@ if __name__ =='__main__':
     # Evaluation vectors
     ground_truth = []
     gpt_preds = []
-    # ranking_prompt = ['Counterargument Query','Explanation Query','Goal Query']
+
     
     with open('./new_data/COVID-19/covid_test.json') as f:
         json_data = json.load(f)
@@ -152,9 +152,8 @@ if __name__ =='__main__':
     with open('./result/COVID-19/gpt-3.5-turbo_no_query_result_seed0_1time_9class.txt','w') as output_file:
 
         import sys
-        # 기존의 stdout을 백업합니다.
         original_stdout = sys.stdout
-        # 출력을 파일로 리디렉션합니다.ㅌ
+  
         sys.stdout = output_file
         for sample in json_data['test']:
 
