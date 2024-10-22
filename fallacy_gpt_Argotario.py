@@ -148,8 +148,6 @@ if __name__ =='__main__':
     confidences = []
     
     
-
-    # ranking_prompt = ['Counterargument Query','Explanation Query','Goal Query']
     with open('./new_data/Argotario/argotario_test.json') as f:
         json_data = json.load(f)
      
@@ -157,9 +155,9 @@ if __name__ =='__main__':
     TOTAL_CALLS = len(json_data['test'])
     with open('./result/Argotario/gpt-3.5-turbo_ex_query_cbr_result_seed0_1time_5class.txt','w') as output_file:
         import sys
-        # 기존의 stdout을 백업합니다.
+
         original_stdout = sys.stdout
-        # 출력을 파일로 리디렉션합니다.ㅌ
+
         sys.stdout = output_file
         for sample in json_data['test']:
             # These are the parameters to be used for running each of the prompt ranking
