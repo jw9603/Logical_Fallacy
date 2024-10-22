@@ -144,15 +144,15 @@ if __name__ == '__main__':
         sys.stdout = output_file
         
         system_message = (
-            "Your task is to detect a fallacy in the text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whatboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
+            "Your task is to detect a fallacy in the text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whataboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
             "Please detect a fallacy in the Text.\nReturn only the name of the label, and nothing else. MAKE SURE your output is one of the 15 labels stated."
         )
         # system_message_zcot = (
-        #     "Your task is to detect a fallacy in the Text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whatboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
+        #     "Your task is to detect a fallacy in the Text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whataboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
         #     "Please detect a fallacy in the Text.\nLet's think step by step.\nReturn only the name of the label, and nothing else. MAKE SURE your output is one of the 15 labels stated."
         # )
         # system_message_def = (
-        #     "Your task is to detect a fallacy in the Text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whatboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
+        #     "Your task is to detect a fallacy in the Text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whataboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
         #     "1. Loaded Language : Using specific words and phrases with strong emotional implications (either positive or negative) to influence an audience.\n"
         #     "2. Exaggeration or Minimisation : Either representing something in an excessive manner: making things larger, worse or making something seem less important than it really is.\n"
         #     "3. Doubt : Questioning the credibility of someone or something.\n"
@@ -161,7 +161,7 @@ if __name__ == '__main__':
         #     "6. Thought-Terminating Cliches : Words or phrases that discourage critical thought and meaningful discussion about a given topic. They are typically short, generic sentences that offer seemingly simple answers to complex questions or distract attention away from other lines of thought.\n"
         #     "7. Appeal to Fear: Seeking to build support for an idea by instilling anxiety and/or panic in the population towards an alternative. In some cases the support is based on preconceived judgements.\n"
         #     "8. Name Calling: Labeling the object of the propaganda campaign as either something the target audience fears, hates, finds undesirable or loves, praises.\n"
-        #     "9. Whatboutism: A technique that attempts to discredit an opponent’s position by charging them with hypocrisy without directly disproving their argument.\n"
+        #     "9. Whataboutism: A technique that attempts to discredit an opponent’s position by charging them with hypocrisy without directly disproving their argument.\n"
         #     "10. False Causality: Assuming a single cause or reason when there are actually multiple causes for an issue.\n"
         #     "11. Irrelevant Authority: Stating that a claim is true simply because a valid authority or expert on the issue said it was true, without any other supporting evidence offered. We consider the special case in which the reference is not an authority or an expert in this technique, although it is referred to as Testimonial in literature.\n"
         #     "12. Slogans: A brief and striking phrase that may include labeling and stereotyping. Slogans tend to act as emotional appeals.\n"
@@ -171,13 +171,13 @@ if __name__ == '__main__':
         #     "Please detect a fallacy in the Text."
         # )
         # system_message_query = (
-        #     "Your task is to detect a fallacy in the text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whatboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
+        #     "Your task is to detect a fallacy in the text. The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whataboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
         #     "Please detect a fallacy in the Text based on the Query.\nReturn only the name of the label, and nothing else. MAKE SURE your output is one of the 15 labels stated."
         # )
         # system_message_pr = (
         #     "Given a Sentence with a logical fallacy, we aim to detect it using queries based on multiple perspectives, such as counterargument, explanation, and goal.\n"
         #     "The ranking prompt indicates the order of queries based on their confidence scores, which are helpful in identifying the specific type of logical fallacy present in the sentence.\n"
-        #     "The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whatboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
+        #     "The label can be 'Loaded Language' and 'Exaggeration or Minimisation' and 'Doubt' and 'Strawman' and 'Flag Waving' and 'Thought terminating cliches' and 'Appeal to Fear' and 'Name Calling' and 'Whataboutism' and 'False Causality' and 'Irrelevant Authority' and 'Slogans' and 'Reductio Ad Hitlerum' and 'Red Herring' and 'Black and White Fallacy'.\n"
         #     "Based on the ranking prompt of these queries, please reference them to detect the fallacy in the sentence."
         # )
         
@@ -259,7 +259,7 @@ if __name__ == '__main__':
                 ('thought terminating cliches', 6),
                 ('appeal to fear', 7),
                 ('name calling', 8),
-                ('whataboutism', 9),
+                ('whatboutism', 9),
                 ('false causality', 10),
                 ('irrelevant authority', 11),
                 ('slogans', 12),
