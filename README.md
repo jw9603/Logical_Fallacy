@@ -7,9 +7,9 @@ If you have any questions, feel free to ask at any time.
 
 ## Overview
 
-![Model 2](./fig/fig_model2.png)
+![Model 2](./fig/fig_model2.pdf)
 
-![Model Below](./fig/fig_model_below.png)
+![Model Below](./fig/fig_model_below.pdf)
 
 ## Preliminaries
 1. You need Chatgpt API.
