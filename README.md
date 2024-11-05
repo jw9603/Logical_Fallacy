@@ -29,6 +29,28 @@ Propaganda - https://propaganda.qcri.org/nlp4if-shared-task/data/datasets-v2.tgz
 
 CLIMATE & COVID-19 - https://github.com/Tariq60/fallacy-detection/tree/master/data
 
+## How to run:
+
+### GPT Series
+
+```
+python fallacy_gpt_{data/...}.py
+```
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+
+### LLama Series
+
+```
+python fallacy_llama3_{data/...}.py
+```
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+
+### Roberta-base
+
+```
+python fine-tune-LM_concat_{data/...}.py
+```
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
 
 
