@@ -29,6 +29,21 @@ Propaganda - https://propaganda.qcri.org/nlp4if-shared-task/data/datasets-v2.tgz
 
 CLIMATE & COVID-19 - https://github.com/Tariq60/fallacy-detection/tree/master/data
 
+The preprocessed datasets are located in the data folder.
+
+To generate Contextual Augmentation, run:
+
+```
+python make_case.py
+```
+
+To generate Reformulated Queries, run:
+
+```
+python make_case_query.py
+```
+
+
 ## How to run:
 
 ### GPT Series
