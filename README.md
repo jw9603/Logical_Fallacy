@@ -49,21 +49,21 @@ python make_case_query.py
 ### GPT Series
 
 ```
-python fallacy_gpt_{data/...}.py
+python fallacy_gpt_{data/...}.py
 ```
 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
 ### LLama Series
 
 ```
-python fallacy_llama3_{data/...}.py
+python fallacy_llama3_{data/...}.py
 ```
 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
 ### Roberta-base
 
 ```
-python fine-tune-LM_concat_{data/...}.py
+python fine-tune-LM_concat_{data/...}.py
 ```
 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
