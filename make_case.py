@@ -11,7 +11,7 @@ def generate_counterarg(text,fallacy_class,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 @retry()
@@ -22,7 +22,7 @@ def generate_counterarg_cbr(text,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 
@@ -35,7 +35,7 @@ def generate_explanation(text,fallacy_class,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 
@@ -47,7 +47,7 @@ def generate_explanation_cbr(text,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 
@@ -59,7 +59,7 @@ def generate_goal(text,fallacy_class,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 
@@ -71,7 +71,7 @@ def generate_goal_cbr(text,client):
         prompt=prompt,
         max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
         temperature=1.0,
-        top_p=0.1
+        top_p=1.0
     )
     return response.choices[0].text.strip()
 
