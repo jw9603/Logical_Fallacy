@@ -46,6 +46,9 @@ python make_case_query.py
 
 ## How to run:
 
+Before running the code, create a `result` directory. The results will be saved as text files in this `result` directory.
+
+
 ### GPT Series
 
 ```
