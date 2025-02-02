@@ -12,10 +12,10 @@ If you have any questions, feel free to ask at any time.
 ![Model Below](./fig/2.png)
 
 ## Preliminaries
-1. You need Chatgpt API.
-   https://openai.com/chatgpt/ 
-2. You need LLaMA2 and LLaMA3 API.
-   https://huggingface.co/meta-llama
+1. You need [Chatgpt API](https://openai.com/chatgpt/).
+   
+2. You need [LLaMA2 and LLaMA3 API](https://huggingface.co/meta-llama).
+   
 
 ## Datasets
 
