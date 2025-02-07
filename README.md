@@ -1,5 +1,5 @@
 # Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation
-This repository provides the source code & data of our paper: Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation (NAACL 2025).
+This repository provides the source code & data of our paper: Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation (NAACL 2025 Findings).
 
 If you have any questions, feel free to ask at any time.
 
