@@ -69,5 +69,10 @@ python fine-tune-LM_concat_{data/...}.py
 ```
 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
+## Citation
 
+If this is helpful in your research, we would appreciate if it you could cite our paper as follows:
+```
+To be continued..
+```
 
