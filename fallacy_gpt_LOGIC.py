@@ -10,17 +10,17 @@ from collections import Counter
 import math
 
 def rank_confidence_scores(confidence_score_cg, confidence_score_ex, confidence_score_go, ranking_prompt):
-    # 각 신뢰도 점수와 연관된 쿼리 유형을 튜플 리스트로 생성
+    # Create a list of tuples containing each confidence score and its associated query type
     score_pairs = [
         (confidence_score_cg, "Counterargument Query"),
         (confidence_score_ex, "Explanation Query"),
         (confidence_score_go, "Goal Query")
     ]
 
-    # 신뢰도 점수에 따라 내림차순으로 튜플 리스트를 정렬
+    # Sort the list of tuples in descending order based on confidence scores
     sorted_score_pairs = sorted(score_pairs, key=lambda x: x[0], reverse=True)
 
-    # 정렬된 순서대로 쿼리 유형을 추출
+    # Extract the query types in the sorted order
     ranked_prompts = [pair[1] for pair in sorted_score_pairs]
 
     return ranked_prompts
@@ -73,7 +73,6 @@ def LOGIC_multi_fallacy_classification_no_query_zero_def_list(text):
     
     return cmpl, mode
 
-
 @retry()
 def LOGIC_multi_fallacy_classification_query_zero_list(text,query):
     mode = 'ZERO-SHOT'
@@ -90,13 +89,7 @@ def LOGIC_multi_fallacy_classification_query_zero_list(text,query):
         logprobs=True
     )
     
-
-    
     return cmpl, mode
-
-
-
-
 
 @retry()
 def LOGIC_multi_fallacy_classification_query_ranking_zero_list(text,response,query1,query2,query3):
@@ -116,11 +109,8 @@ def LOGIC_multi_fallacy_classification_query_ranking_zero_list(text,response,que
 
         ]
     )
+    
     return cmpl, mode
-
-
-
-
 
 if __name__ =='__main__':
 
@@ -135,8 +125,6 @@ if __name__ =='__main__':
     ground_truth = []
     gpt_preds = []
     
-
-    
     with open('./new_data/LOGIC/LOGIC_test.json') as f:
         json_data = json.load(f)
         
@@ -145,9 +133,9 @@ if __name__ =='__main__':
 
     with open('./result/LOGIC/gpt-3.5-turbo_no_query_result_seed0_1time_5class.txt','w') as output_file:
         import sys
-        # 기존의 stdout을 백업합니다.
+        
         original_stdout = sys.stdout
-        # 출력을 파일로 리디렉션합니다.
+       
         sys.stdout = output_file
         for sample in json_data['test']:
             # These are the parameters to be used for running each of the prompt ranking
@@ -301,13 +289,11 @@ if __name__ =='__main__':
             else:
                 gpt_preds.append(0)
                     
-        
-
             CALLS += 1
 
             print(CALLS,'/',TOTAL_CALLS)
             print('pred',pred)   
-            # 출력 "usage" 부분
+            
             usage = completion.usage
             print('Usage:', usage)  
         
@@ -319,7 +305,6 @@ if __name__ =='__main__':
         total_accuracy = accuracy_score(ground_truth, gpt_preds)
         print("Total Accuracy:", total_accuracy)
         
-    
         # Precision, Recall, F1-Score for each class
         precision, recall, f1, _ = precision_recall_fscore_support(ground_truth, gpt_preds, average='macro')
         print("Precision (Macro):", precision)
@@ -331,8 +316,7 @@ if __name__ =='__main__':
         print("Confusion Matrix:")
         print(cm)
         
-        
-        # 계산된 정확도를 리스트에 추가
+        # Append the calculated accuracy to the list
         accuracies = []
         for label in [1, 2,3,4,5,6,7,8,9,10,11,12,13]:
             true_labels = [1 if gt == label else 0 for gt in ground_truth]
@@ -340,7 +324,7 @@ if __name__ =='__main__':
             acc = accuracy_score(true_labels, pred_labels)
             accuracies.append(acc)
 
-        # 클래스별 정확도 출력
+        # Print accuracy for Each Class
         print("Class 1 (Faulty Generalization) Accuracy:", accuracies[0])
         print("Class 2 (Ad Hominem) Accuracy:", accuracies[1])
         print("Class 3 (False Causality) Accuracy:", accuracies[2])
@@ -355,11 +339,11 @@ if __name__ =='__main__':
         print("Class 12 (Fallacy of Extension) Accuracy:", accuracies[11])
         print("Class 13 (Equivocation) Accuracy:", accuracies[12])
         
-        # 클래스별로 Precision, Recall, F1-Score 계산
+        # Compute Precision, Recall, and F1-Score for each class
         class_metrics = precision_recall_fscore_support(ground_truth, gpt_preds,average=None)
 
         print('class_metrics',class_metrics)
-        # 클래스별 결과 출력
+       
         classes = ["Faulty Generalization","Ad Hominem","False Causality","Ad Populum","Circular Reasoning","Appeal to Emotion","Deductive Reasoning","Red Herring","Intentional Fallacy","False Dilemma","Irrelevant Authority","Fallacy of Extension","Equivocation"]
         classes1 = ["The Other","Faulty Generalization","Ad Hominem","False Causality","Ad Populum","Circular Reasoning","Appeal to Emotion","Deductive Reasoning","Red Herring","Intentional Fallacy","False Dilemma","Irrelevant Authority","Fallacy of Extension","Equivocation"]
         if 0 in gpt_preds:
@@ -373,15 +357,11 @@ if __name__ =='__main__':
             print(f"  F1-Score: {class_metrics[2][i]}")
             print()
         
-        
-        
-
-        # 파일로 리디렉션된 출력을 다시 기존 stdout으로 복원합니다.
+        # Restore the redirected output back to the original stdout.
         sys.stdout = original_stdout
         
     # with open('./new_data/LOGIC/LOGIC_test.json','w') as f:
 
-        
     #     json.dump(json_data, f, indent=4)    
 
-    print("모든 출력이 'output.txt' 파일에 저장되었습니다.")
+    print("All output has been saved to 'output.txt' file.")
