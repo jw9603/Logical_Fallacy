@@ -10,20 +10,18 @@ import re
 import math
 from collections import Counter
 
-
-
 def rank_confidence_scores(confidence_score_cg, confidence_score_ex, confidence_score_go, ranking_prompt):
-    # 각 신뢰도 점수와 연관된 쿼리 유형을 튜플 리스트로 생성
+    # Create a list of tuples containing each confidence score and its associated query type
     score_pairs = [
         (confidence_score_cg, "Counterargument Query"),
         (confidence_score_ex, "Explanation Query"),
         (confidence_score_go, "Goal Query")
     ]
 
-    # 신뢰도 점수에 따라 내림차순으로 튜플 리스트를 정렬
+    # Sort the list of tuples in descending order based on confidence scores
     sorted_score_pairs = sorted(score_pairs, key=lambda x: x[0], reverse=True)
 
-    # 정렬된 순서대로 쿼리 유형을 추출
+    # Extract the query types in the sorted order
     ranked_prompts = [pair[1] for pair in sorted_score_pairs]
 
     return ranked_prompts
@@ -43,8 +41,6 @@ def Argotario_multi_fallacy_classification_no_query_zero_list(text):
         ,logprobs=True
     )
     
-
-    
     return cmpl, mode
 
 @retry()
@@ -60,8 +56,6 @@ def Argotario_multi_fallacy_classification_no_query_zcot_list(text):
             {"role": "user", "content": "Label: "}
         ]
     )
-    
-
     
     return cmpl, mode
 
@@ -79,11 +73,7 @@ def Argotario_multi_fallacy_classification_no_query_zero_def_list(text):
         ]
     )
     
-
-    
     return cmpl, mode
-
-
 
 @retry()
 def Argotario_multi_fallacy_classification_query_zero_list(text,query):
@@ -100,15 +90,8 @@ def Argotario_multi_fallacy_classification_query_zero_list(text,query):
         ]
         ,logprobs=True
     )
-    
 
-    
     return cmpl, mode
-
-
-
-
-
 
 @retry()
 def Argotario_multi_fallacy_classification_query_ranking_zero_list(text,response,query1,query2,query3):
@@ -130,9 +113,6 @@ def Argotario_multi_fallacy_classification_query_ranking_zero_list(text,response
     )
     return cmpl, mode
 
-
-
-
 if __name__ =='__main__':
 
     CALLS = 0  # Initialize the API call counter
@@ -147,11 +127,9 @@ if __name__ =='__main__':
     gpt_preds = []
     confidences = []
     
-    
     with open('./new_data/Argotario/argotario_test.json') as f:
         json_data = json.load(f)
      
-        
     TOTAL_CALLS = len(json_data['test'])
     with open('./result/Argotario/gpt-3.5-turbo_no_query_result_seed0_1time_5class.txt','w') as output_file:
         import sys
@@ -278,14 +256,12 @@ if __name__ =='__main__':
                 gpt_preds.append(5)
             else:
                 gpt_preds.append(0)
-                    
-        
-
+                
             CALLS += 1
  
             print(CALLS,'/',TOTAL_CALLS)
             print('pred',pred)   
-            # 출력 "usage" 부분
+            
             usage = completion.usage
             print('Usage:', usage)  
         
@@ -293,12 +269,10 @@ if __name__ =='__main__':
         print('ground_truth',ground_truth)
         print('ground_truth길이',len(ground_truth))
 
-        
         print('gpt_preds',gpt_preds)
         print('gpt_preds길이',len(gpt_preds))
         total_accuracy = accuracy_score(ground_truth, gpt_preds)
         print("Total Accuracy:", total_accuracy)
-        
     
         # Precision, Recall, F1-Score for each class
         precision, recall, f1, _ = precision_recall_fscore_support(ground_truth, gpt_preds, average='macro')
@@ -312,7 +286,7 @@ if __name__ =='__main__':
         print(cm)
         
         
-        # 계산된 정확도를 리스트에 추가
+        # Append the calculated accuracy to the list
         accuracies = []
         for label in [1, 2,3,4,5]:
             true_labels = [1 if gt == label else 0 for gt in ground_truth]
@@ -320,7 +294,7 @@ if __name__ =='__main__':
             acc = accuracy_score(true_labels, pred_labels)
             accuracies.append(acc)
 
-        # 클래스별 정확도 출력
+        # Print accuracy for Each Class
         print("Class 1 (Appeal to Emotion) Accuracy:", accuracies[0])
         print("Class 2 (Faulty Generalization) Accuracy:", accuracies[1])
         print("Class 3 (Red Herring) Accuracy:", accuracies[2])
@@ -328,11 +302,11 @@ if __name__ =='__main__':
         print("Class 5 (Irrelevant Authority) Accuracy:", accuracies[4])
       
         
-        # 클래스별로 Precision, Recall, F1-Score 계산
+        # Compute Precision, Recall, and F1-Score for each class
         class_metrics = precision_recall_fscore_support(ground_truth, gpt_preds,average=None)
 
         print('class_metrics',class_metrics)
-        # 클래스별 결과 출력
+        
         classes = ["Appeal to Emotion","Faulty Generalization","Red Herring","Ad Hominem","Irrelevant Authority"]
         classes1 = ["The Other","Appeal to Emotion","Faulty Generalization","Red Herring","Ad Hominem","Irrelevant Authority"]
         if 0 in gpt_preds:
@@ -345,17 +319,12 @@ if __name__ =='__main__':
             print(f"  Recall: {class_metrics[1][i]}")
             print(f"  F1-Score: {class_metrics[2][i]}")
             print()
-        
-        
-        
-
-        # 파일로 리디렉션된 출력을 다시 기존 stdout으로 복원합니다.
+            
+        # Restore the redirected output back to the original stdout.
         sys.stdout = original_stdout
         
         
     # with open('./new_data/Argotario/argotario_test_sim1.json','w') as f:
-
-        
     #     json.dump(json_data, f, indent=4)    
 
-    print("모든 출력이 'output.txt' 파일에 저장되었습니다.")
+    print("All output has been saved to 'output.txt' file.")
