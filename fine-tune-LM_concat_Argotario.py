@@ -6,7 +6,7 @@ import json, evaluate
 import numpy as np
 import os
 
-# Set tu use GPU 1
+# Set to use GPU 1
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
