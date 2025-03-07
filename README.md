@@ -1,34 +1,41 @@
 # Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation
-This repository provides the source code & data of our paper: Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation (NAACL 2025 Findings).
+📌 **NAACL 2025 Findings** - This repository provides the **source code & dataset** used in our paper:  
 
-If you have any questions, feel free to ask at any time.
+**"Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation."** 
+
+📩 If you have any **questions** or **issues**, feel free to ask! 🚀  
 
 
-## Overview
+## 📖 **Overview** 
 
 ![Model 2](./fig/1.png)
 
 ![Model Below](./fig/2.png)
 
-## Preliminaries
-1. You need [Chatgpt API](https://openai.com/chatgpt/).
+## ⚡ **Preliminaries** 
+
+Before running the code, make sure you have access to the following:  
+
+### 🔗 **Required APIs**  
+1️⃣ **[ChatGPT API](https://openai.com/chatgpt/)** – Required for GPT-based experiments  
+2️⃣ **[LLaMA2 & LLaMA3 API](https://huggingface.co/meta-llama)** – Required for LLaMA-based models  
    
-2. You need [LLaMA2 and LLaMA3 API](https://huggingface.co/meta-llama).
-   
 
-## Datasets
+## 📂 **Datasets**  
 
-The original datasets can be found at the links below.
+The original datasets used in our study can be found at the links below: 
 
-| Dataset      | Link |
+| Dataset | Source Link |
 |-------------|------|
-| **Argotario** | [Link](https://github.com/UKPLab/argotario/blob/master/data/arguments-en-2018-01-15.tsv) |
-| **Logic (edu_train, edu_dev, edu_test)** | [Link](https://github.com/causalNLP/logical-fallacy/tree/main/data) |
-| **Propaganda** | [Link](https://propaganda.qcri.org/nlp4if-shared-task/data/datasets-v2.tgz) |
-| **CLIMATE & COVID-19** | [Link](https://github.com/Tariq60/fallacy-detection/tree/master/data) |
+| **Argotario** | [🔗 Link](https://github.com/UKPLab/argotario/blob/master/data/arguments-en-2018-01-15.tsv) |
+| **Logic (edu_train, edu_dev, edu_test)** | [🔗 Link](https://github.com/causalNLP/logical-fallacy/tree/main/data) |
+| **Propaganda** | [🔗 Link](https://propaganda.qcri.org/nlp4if-shared-task/data/datasets-v2.tgz) |
+| **CLIMATE & COVID-19** | [🔗 Link](https://github.com/Tariq60/fallacy-detection/tree/master/data) |
+
+📌 **Preprocessed datasets** can be found in the `data` folder.
 
 
-The preprocessed datasets are located in the data folder.
+## ⚙️ **Generating Augmented Data** 
 
 To generate Contextual Augmentation, run:
 
@@ -43,35 +50,39 @@ python make_case_query.py
 ```
 
 
-## How to run:
+## 🚀 **How to Run the Code**
 
-Before running the code, create a `result` directory. The results will be saved as text files in this `result` directory.
+Before running the experiments, create a result directory.
+
+📂 All results will be saved as text files in this result directory.
 
 
-### GPT Series
+### 1️⃣ **Running GPT-Series Models**
 
 ```
 python fallacy_gpt_{data/...}.py
 ```
-{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-### LLama Series
+🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+
+### 2️⃣ **Running LLaMA-Series Models**
 
 ```
 python fallacy_llama3_{data/...}.py
 ```
-{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-### Roberta-base
+### 3️⃣ **Running RoBERTa-Base Fine-Tuning**
 
 ```
 python fine-tune-LM_concat_{data/...}.py
 ```
-{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-## Citation
+🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-If this is helpful in your research, we would appreciate if it you could cite our paper as follows:
+## 📜 **Citation** 
+
+If this work is helpful in your research, we would appreciate if you could cite our paper as follows:
 ```
 To be continued..
 ```
