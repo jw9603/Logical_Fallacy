@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 
-# 1번 GPU를 사용하도록 설정
+# Set to use GPU 1
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 def load_dataset(path):
@@ -465,13 +465,6 @@ def load_dataset_go(path):
     
     return final_data   
 
-
-
-
-
-
-
-
 def tokenize_sequence(samples):
     
     return tknz(samples['text'],padding=True, truncation=True,max_length=512)
@@ -501,8 +494,7 @@ def compute_metrics(eval_preds):
     predictions = np.argmax(logits, axis=-1)
     return metric.compute(predictions=predictions, references=labels, average='macro')
     
-    
-    
+   
 def train_model(mdl, tknz, data):
 
     training_args = TrainingArguments(
@@ -593,4 +585,4 @@ if __name__ =='__main__':
 
         sys.stdout = original_stdout
         
-    print("모든 출력이 'output.txt' 파일에 저장되었습니다.")
+    print("All output has been saved to 'output.txt' file.")
