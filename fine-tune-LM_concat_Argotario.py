@@ -6,7 +6,7 @@ import json, evaluate
 import numpy as np
 import os
 
-# 1번 GPU를 사용하도록 설정
+# Set tu use GPU 1
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
@@ -134,9 +134,7 @@ def load_dataset_cg(path):
         elif sample[1] == 'irrelevant authority':
             data['test']['label'].append(4)
             
-    # final_data = DatasetDict()
-    # for k,v in data.items():
-    #     final_data[k] = Dataset.from_dict(v)
+
     final_data = DatasetDict({'train': Dataset.from_dict(data['train']), 'dev': Dataset.from_dict(data['dev']), 'test': Dataset.from_dict(data['test'])})
     
     return final_data   
@@ -274,30 +272,9 @@ def load_dataset_go(path):
     
     return final_data   
 
-
-
-
-
-
-
-
 def tokenize_sequence(samples):
     
     return tknz(samples['text'],padding=True, truncation=True,max_length=512)
-
-# def tokenize_sequence(samples):
-#     print('samples',samples['train'])
-#     assert -1 == 0
-#     train_texts = [sample + '[SEP]' + sample for sample in samples['train']['text']]
-#     dev_texts = [sample + '[SEP]' + sample for sample in samples['dev']['text']]
-    
-#     tokenized_train_texts = tknz(train_texts, padding=True, truncation=True)
-#     tokenized_dev_texts = tknz(dev_texts, padding=True, truncation=True)
-    
-#     tokenized_test_texts = tknz(samples['test']['text'], padding=True, truncation=True)
-    
-#     return {'train': tokenized_train_texts, 'dev': tokenized_dev_texts, 'test': tokenized_test_texts}
-
 
 def load_model():
     tokenizer_hf = AutoTokenizer.from_pretrained('roberta-base')
@@ -318,16 +295,13 @@ def load_model_deberta():
     return tokenizer_hf, model
 
 
-    
-
 def compute_metrics(eval_preds):
     metric = evaluate.load("f1")
     logits, labels = eval_preds
     predictions = np.argmax(logits, axis=-1)
     return metric.compute(predictions=predictions, references=labels, average='macro')
     
-    
-    
+ 
 def train_model(mdl, tknz, data):
 
     training_args = TrainingArguments(
@@ -386,7 +360,6 @@ if __name__ =='__main__':
         tknz, mdl = load_model()
   
             
-            
         tokenized_data = shuffled_dataset.map(tokenize_sequence,batched=True)
             
         trainer = train_model(mdl,tknz,tokenized_data)
@@ -415,7 +388,6 @@ if __name__ =='__main__':
         # # print('Macro F1 score in TEST:', f1)
         # print('Accuracy in TEST:', accuracy)
        
-
         sys.stdout = original_stdout
         
-    print("모든 출력이 'output.txt' 파일에 저장되었습니다.")
+    print("All output has been saved to 'output.txt' file.")
