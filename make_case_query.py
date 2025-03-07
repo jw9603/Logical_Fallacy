@@ -10,7 +10,7 @@ def generate_counterarg_query(text,cg,client):
     response = client.completions.create(
         model="gpt-3.5-turbo-instruct",
         prompt=prompt,
-        max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
+        max_tokens=256,  # You can set the maximum length of the question.
         temperature=1.0,
         top_p=0.1
     )
@@ -22,7 +22,7 @@ def generate_explanation_query(text,ex,client):
     response = client.completions.create(
         model="gpt-3.5-turbo-instruct",
         prompt=prompt,
-        max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
+        max_tokens=256,  # You can set the maximum length of the question.
         temperature=1.0,
         top_p=0.1
     )
@@ -34,7 +34,7 @@ def generate_goal_query(text,goal,client):
     response = client.completions.create(
         model="gpt-3.5-turbo-instruct",
         prompt=prompt,
-        max_tokens=256,  # 질문의 최대 길이를 설정할 수 있습니다.
+        max_tokens=256,  # You can set the maximum length of the question.
         temperature=1.0,
         top_p=0.1
     )
@@ -42,13 +42,11 @@ def generate_goal_query(text,goal,client):
 
 
 def main():
-    # OpenAI 클래스의 인스턴스 생성
+    # Create an instance of the OpenAI class
     CALLS = 0
     client = OpenAI(
         api_key="YOURKEY"
     )
-    
-
     
     
     with open('./new_data/propaganda/propaganda_train.json') as f:
@@ -69,7 +67,7 @@ def main():
                 question = generate_goal_query(text,ex,client)
              
             except Exception as e:
-                print(f"API 호출 중 오류 발생: {e}")
+                print(f"An error occurred during the API call: {e}")
                 continue
             
             print('query:',question)
@@ -81,16 +79,12 @@ def main():
     
         with open('./new_data/propaganda/propaganda_train.json','w') as f:
         
-        
             json.dump(json_data, f, indent=4)
         
-        print('질문이 JSON 파일에 저장되었습니다.')
+        print("The question has been saved to a JSON file.")
         
         sys.stdout = original_stdout
-    print("모든 출력이 'output.txt' 파일에 저장되었습니다.")
+    print("All output has been saved to 'output.txt' file.")
 
 if __name__ == "__main__":
     main()
-
-    
-
