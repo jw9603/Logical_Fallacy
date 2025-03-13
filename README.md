@@ -57,7 +57,7 @@ Before running the experiments, create a result directory.
 📂 All results will be saved as text files in this result directory.
 
 
-### 1️⃣ **Running GPT-Series Models**
+### 1. **Running GPT-Series Models**
 
 ```
 python fallacy_gpt_{data/...}.py
@@ -65,14 +65,14 @@ python fallacy_gpt_{data/...}.py
 
 🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-### 2️⃣ **Running LLaMA-Series Models**
+### 2. **Running LLaMA-Series Models**
 
 ```
 python fallacy_llama3_{data/...}.py
 ```
 🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-### 3️⃣ **Running RoBERTa-Base Fine-Tuning**
+### 3. **Running RoBERTa-Base Fine-Tuning**
 
 ```
 python fine-tune-LM_concat_{data/...}.py
