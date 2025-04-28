@@ -3,7 +3,7 @@
 
 **[Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation.](https://arxiv.org/abs/2503.23363)** 
 
-📩 If you have any **questions** or **issues**, feel free to ask! 🚀  
+📩 If you have any **questions** or **issues**, feel free to ask!   
 
 
 ## 📖 **Overview** 
