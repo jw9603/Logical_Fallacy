@@ -50,7 +50,7 @@ python make_case_query.py
 ```
 
 
-## 🚀 **How to Run the Code**
+## **How to Run the Code**
 
 Before running the experiments, create a result directory.
 
