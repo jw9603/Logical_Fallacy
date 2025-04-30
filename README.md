@@ -84,6 +84,22 @@ python fine-tune-LM_concat_{data/...}.py
 
 If this work is helpful in your research, we would appreciate if you could cite our paper as follows:
 ```
-To be continued..
+@inproceedings{jeong-etal-2025-large,
+    title = "Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation",
+    author = "Jeong, Jiwon  and
+      Jang, Hyeju  and
+      Park, Hogun",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.384/",
+    pages = "6918--6937",
+    ISBN = "979-8-89176-195-7",
+}
 ```
 
