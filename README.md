@@ -63,14 +63,14 @@ Before running the experiments, create a result directory.
 python fallacy_gpt_{data/...}.py
 ```
 
-🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
 ### 2. **Running LLaMA-Series Models**
 
 ```
 python fallacy_llama3_{data/...}.py
 ```
-🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
 ### 3. **Running RoBERTa-Base Fine-Tuning**
 
@@ -78,9 +78,9 @@ python fallacy_llama3_{data/...}.py
 python fine-tune-LM_concat_{data/...}.py
 ```
 
-🔹 {data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
+{data/...} includes PROPAGANDA, ARGOTARIO, LOGIC, CLIMATE, and COVID-19.
 
-## 📜 **Citation** 
+## **Citation** 
 
 If this work is helpful in your research, we would appreciate if you could cite our paper as follows:
 ```
