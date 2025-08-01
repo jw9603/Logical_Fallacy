@@ -6,7 +6,7 @@
 📩 If you have any **questions** or **issues**, feel free to ask!   
 
 
-## 📖 **Overview** 
+## **Overview** 
 
 ![Model 2](./fig/1.png)
 
